@@ -1,0 +1,135 @@
+#btn1 {
+    display: flex;
+    gap: 0.8rem;
+    flex-direction: row;
+    background: transparent;
+    border-radius: 0px;
+    border: 0;
+    color: var(--color-white);
+}
+
+#btn1 p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    border: 0;
+    color: var(--color-white);
+}
+
+.qulai-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.quali__icon {
+    font-size: 1.5rem;
+
+}
+
+.active {
+    color: var(--color-primary) !important;
+}
+
+.qualification_circle {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+}
+
+.qualification_line {
+    display: block;
+    width: 2px;
+    height: 4rem;
+    background-color: var(--color-primary);
+    transform: translate(6px, -7px);
+    margin-top: 1rem;
+}
+
+.bar_circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.qualification_data {
+    display: grid;
+    width: 350px;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.qualification_title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.qualification_subtitle {
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-1);
+}
+
+.qualification_subtitle a {
+    color: inherit;
+}
+
+.qualification_calendar {
+    font-size: var(--smaller-font-size);
+    color: var(--color-light);
+    display: flex;
+    gap: 2px;
+}
+
+.qualification_circle {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+}
+
+.qualification_line {
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: var(--color-primary);
+    transform: translate(6px, -7px);
+}
+
+.qualification-content {
+    display: block;
+    font-family: "Poppins", sans-serif;
+}
+
+.qualification-inactive {
+    display: none;
+
+}
+
+.flex {
+    display: flex;
+    position: relative;
+}
+
+.flex1 {
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+/*
+.btn1:hover{
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+.btn1 p:hover{
+    color: var(--color-primary);
+    cursor: pointer;
+}*/

@@ -1,0 +1,112 @@
+.language__title {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+}
+
+.lang__title__content h3 {
+    font-weight: 500;
+    color: var(--color-white);
+}
+
+.lang__title__content h5 {
+    color: var(--color-light);
+}
+
+.lang__icon {
+    color: var(--color-primary);
+    font-size: 2rem;
+}
+
+.icon__name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+
+.content__icon {
+    color: var(--color-primary);
+    font-size: 2rem;
+}
+
+.icon__name p {
+    font: bold;
+    color: var(--color-white);
+    font-size: 1.2rem;
+}
+
+.skill__bar {
+    content: "";
+    height: 0.5rem;
+    background: var(--color-primary);
+    border-radius: 1rem;
+    margin-top: -1.5rem;
+}
+
+.first {
+    display: flex;
+    gap: 15%;
+    flex-wrap: wrap;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    justify-content: space-between;
+}
+
+.tools {
+    margin-top: 6rem;
+}
+
+#experience {
+    margin: 0 auto 3rem;
+    margin-top: 8rem;
+
+}
+
+#open-close-icon {
+    font-size: 1.5rem;
+    color: var(--color-primary);
+}
+
+.active1 {
+    rotate: 180deg;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .first {
+        display: flex;
+        flex-direction: column;
+
+        gap: 5rem
+    }
+
+    .experience__container {
+
+        width: 65%;
+        margin: 0 auto 3rem;
+
+    }
+
+}
+
+@media screen and (max-width: 1240px) {
+    .first {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem
+    }
+
+    .experience__container {
+
+        width: 65%;
+        margin: 0 auto 3rem;
+
+    }
+
+    .libraries {
+        margin-top: 6rem;
+    }
+
+}
